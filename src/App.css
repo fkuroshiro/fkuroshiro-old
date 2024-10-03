@@ -10,7 +10,7 @@
 }
 
 .progress-bar .filled {
-  width: 100%;
+  width: 0;
   height: 100%;
   background-color: #880088;
   box-shadow: #880088 1px 1px 10px 1px;
@@ -35,5 +35,5 @@
 }
 
 .main {
-  height: 10000px;
+  height: 5000px;
 }
