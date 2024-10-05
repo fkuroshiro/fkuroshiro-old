@@ -1,6 +1,6 @@
-import '../css/App.css'
-import Logo from "../assets/Logo.png";
-import Pencil_Icon from "../assets/pencil_create_icon.png";
+import './css/App.css'
+import Logo from "./assets/Logo.png";
+import Pencil_Icon from "./assets/pencil_create_icon.png";
 
 function App() {
 
