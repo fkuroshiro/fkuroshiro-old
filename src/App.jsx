@@ -29,10 +29,6 @@ function App() {
               <div className='js'>JAVASCRIPT<div className="bar"><div className="filled"><code>30%</code></div></div></div>
 
               <div className='vite'><a href="http://vite.dev" target="_blank" rel="noopener noreferrer">Vite.js</a><div className="bar"><div className="filled"><code>20%</code></div></div></div>
-
-              {/* <div className='css3'>CSS3<div className="bar"><div className="filled"></div></div><code>50%</code></div>
-              <div className='js'>JS<div className="bar"><div className="filled"></div></div><code>50%</code></div>
-              <div className='vite.js'><a href="https://vite.dev/" target='_blank'>Vite.js</a><div className="bar"><div className="filled"></div></div><code>50%</code></div> */}
             </div>
           </div>
         </div>

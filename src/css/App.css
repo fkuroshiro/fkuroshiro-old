@@ -101,7 +101,7 @@
 }
 
 #skills .bar code {
-    color: aliceblue;
+    color: white;
     display: flex;
     justify-content: flex-end;
     margin: 0 10px;
