@@ -1,5 +1,5 @@
 .header {
-  width: 100%;
+  max-width: 100%;
   height: 800px;
   box-shadow: 5px 0px 0px 5px var(--primary-dark-shadow);
   background-image: linear-gradient(#1313131c, var(--primary-dark) 90%), url(../assets/IMG_0125.JPEG);
@@ -117,8 +117,8 @@
 
 .projects-grid {
   display: grid;
-  grid-template-areas: ".";
-  grid-template-columns: 1fr;
+  grid-template-areas: ". .";
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: auto;
   gap: 15px;
 }

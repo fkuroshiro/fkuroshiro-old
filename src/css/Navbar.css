@@ -4,7 +4,6 @@
     background-color: var(--primary-dark);
     box-shadow: 5px 0px 10px 2.5px var(--primary-dark-shadow);
     z-index: 1;
-    font-size: 18px;
   }
   
   .navbar>.inner {
