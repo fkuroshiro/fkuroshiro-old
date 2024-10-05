@@ -20,6 +20,11 @@
   --primary-shadow: #aa00aa;
   --primary-dark: #131313;
   --primary-dark-shadow: #141414;
+
+  --html5: 100%;
+  --css3: 69%;
+  --js: 30%;
+  --vite: 20%;
 }
 
 * {

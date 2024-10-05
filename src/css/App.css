@@ -17,7 +17,7 @@
 
 .header b {
   text-decoration: underline var(--secondary-clr);
-  font-size: 7.5vh;
+  font-size: clamp(1rem, 0.8333rem + 1.3333vw, 1.25rem);
 }
 
 .header code {
@@ -45,56 +45,56 @@
 }
 
 #skills .html5 .bar {
-  width: 70%;
+  width: 90%;
   height: 17px;
   border-radius: 30px;
   background-color: #212121;
 }
 
 #skills .html5 .filled {
-  width: 100%;
+  width: var(--html5);
   height: 100%;
   border-radius: 30px;
   background-color: var(--primary-clr);
 }
 
 #skills .css3 .bar {
-  width: 70%;
+  width: 90%;
   height: 17px;
   border-radius: 30px;
   background-color: #212121;
 }
 
 #skills .css3 .filled {
-  width: 69%;
+  width: var(--css3);
   height: 100%;
   border-radius: 30px;
   background-color: var(--primary-clr);
 }
 
 #skills .js .bar {
-  width: 70%;
+  width: 90%;
   height: 17px;
   border-radius: 30px;
   background-color: #212121;
 }
 
 #skills .js .filled {
-  width: 30%;
+  width: var(--js);
   height: 100%;
   border-radius: 30px;
   background-color: var(--primary-clr);
 }
 
 #skills .vite .bar {
-  width: 70%;
+  width: 90%;
   height: 17px;
   border-radius: 30px;
   background-color: #212121;
 }
 
 #skills .vite .filled {
-  width: 20%;
+  width: var(--vite);
   height: 100%;
   border-radius: 30px;
   background-color: var(--primary-clr);
@@ -124,7 +124,8 @@
 }
 
 .card {
-  min-width: 550px;
+  max-width: 550px;
+  min-width: 400px;
   height: 400px;
   border-radius: 15px;
   background-color: #212121;

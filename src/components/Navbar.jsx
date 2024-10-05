@@ -1,4 +1,5 @@
-import '../css/Navbar.css'
+import '../css/Navbar.css';
+import '../css/mobile.css';
 import Logo from "../assets/logo.png";
 
 function Navbar() {
@@ -12,7 +13,7 @@ function Navbar() {
                     <div className="links">
                         <div>
                             <a href="#home">Home</a>
-                            <a href="#skills">$kill$</a>
+                            <a href="#skills">Skills</a>
                             <a href="#projects">Project$</a>
                             <a href="#contact">Contact</a>
                         </div>

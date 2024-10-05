@@ -1,0 +1,64 @@
+@media screen and (max-width:450px) {
+    .inner {
+        max-width: 500px;
+        padding: 0 min(40px);
+        box-sizing: border-box;
+    }
+
+    .header {
+        height: 400px;
+        box-shadow: 5px 0px 0px 5px var(--primary-dark-shadow);
+        background-image: linear-gradient(#1313131c, var(--primary-dark) 100%), url(../assets/IMG_0125.JPEG);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .header b {
+        font-size: clamp(1rem, 0.8333rem + 1.3333vw, 1.25rem);
+    }
+
+    .header code {
+        font-size: clamp(1rem, 0.8333rem + 1.3333vw, 1.25rem);
+    }
+
+    #skills {
+        max-width: 400px;
+    }
+
+    #skills .grid {
+        display: grid;
+        grid-template-areas: ".";
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        gap: 10%;
+      }
+
+    .projects-grid {
+        display: grid;
+        grid-template-areas: ".";
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        gap: 15px;
+    }
+
+    .card {
+        min-width: 200px;
+        max-width: 400px;
+    }
+
+    .create-web {
+        display: grid;
+        grid-template-areas: "pencil-i" "text";
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        align-items: center;
+        gap: 20px;
+        margin: 0;
+        transition: all .3s;
+      }
+
+    .navbar .links {
+        display: none !important;
+    }
+}

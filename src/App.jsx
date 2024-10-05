@@ -1,6 +1,12 @@
 import './css/App.css'
+import './css/mobile.css'
 import Logo from "./assets/logo.png";
 import Pencil_Icon from "./assets/pencil_create_icon.png";
+
+const HTML5 = 100;
+const CSS3 = 69;
+const JS = 30;
+const VITE = 20;
 
 function App() {
 
@@ -18,17 +24,17 @@ function App() {
           <div className="grid">
             <div className="i">
               <h1><code>01.</code> About me</h1>
-              <p>Wassup! My name is Dominik. I'm <code>18</code> years old student. I'm studying high school SOŠGAI Weilova aimed to Informatic Technolgy, currenntly being in third grade. And my hobby is making websites.</p>
+              <p>Wassup! My name is Dominik. I'm <code>18</code> years old student. I'm studying high school SOŠGAI Weilova aimed to Informatic Technolgy, currently being in third grade. And my hobby is making websites.</p>
             </div>
             <div className="i">
-              <h1><code>02.</code> $kill$</h1>
-              <div className='html5'>HTML5<div className="bar"><div className="filled"><code>100%</code></div></div></div>
+              <h1><code>02.</code> Skills</h1>
+              <div className='html5'>HTML5<div className="bar"><div className="filled"><code>{HTML5}%</code></div></div></div>
 
-              <div className='css3'>CSS3<div className="bar"><div className="filled"><code>69%</code></div></div></div>
+              <div className='css3'>CSS3<div className="bar"><div className="filled"><code>{CSS3}%</code></div></div></div>
               
-              <div className='js'>JAVASCRIPT<div className="bar"><div className="filled"><code>30%</code></div></div></div>
+              <div className='js'>JAVASCRIPT<div className="bar"><div className="filled"><code>{JS}%</code></div></div></div>
 
-              <div className='vite'><a href="http://vite.dev" target="_blank" rel="noopener noreferrer">Vite.js</a><div className="bar"><div className="filled"><code>20%</code></div></div></div>
+              <div className='vite'><a href="http://vite.dev" target="_blank" rel="noopener noreferrer">Vite.js</a><div className="bar"><div className="filled"><code>{VITE}%</code></div></div></div>
             </div>
           </div>
         </div>
@@ -49,7 +55,7 @@ function App() {
             <img src={Pencil_Icon} alt="logo" width="200px"/>
             <div>
               <h2>Do you want website?</h2>
-              <p>Do you want create a website?</p>
+              <p>Do you want to create a website?</p>
               <div>
                 <b>Write me email: </b>
                 <a href="mailto:help@weizzx.xyz">help@weizzx.xyz</a>
