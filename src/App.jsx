@@ -26,11 +26,11 @@ function App() {
 
       <section id='home' className='header'>
         <div className="inner">
-          <h1>Dominik Bobruška</h1>
+          <div>Dominik Bobruška</div>
         </div>
       </section>
 
-      <section id='skills'>
+      {/* <section id='skills'>
         <div className="inner">
           <h1>01. O mně</h1>
           <div className="grid">
@@ -43,7 +43,7 @@ function App() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <section id='projects'>
         <div className="inner">
@@ -53,8 +53,22 @@ function App() {
           </div>
         </div>
       </section>
-      <div className="help">Coming soon...</div>
-      <a href="https://www.vecteezy.com/free-vector/w-logo">W Logo Vectors by Vecteezy</a>
+      
+      <section>
+
+      </section>
+
+      <footer>
+        <div className="inner">
+          <div className='body'>
+            <div className='creator'>Stránku vytvořil <b><a href="/">Dominik Bobruška </a></b></div>
+            <div className="f-logo">
+              <img src={Logo} alt="logo" width="48px"/>
+              <div>weizzx</div>
+            </div>
+          </div>
+        </div>
+      </footer>
     </>
   )
 }

@@ -5,19 +5,32 @@
   line-height: 1.5;
   font-weight: 400;
 
-  color-scheme: light dark;
-  color: #ffffff;
-  background-color: #131313;
+  color-scheme: dark;
+  color: #FAF9F6;
+  background-color: var(--primary-dark);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   scroll-behavior: smooth;
+
+  --primary-clr: #880088;
+  --secondary-clr: #780078;
+  --primary-shadow: #aa00aa;
+  --primary-dark: #131313;
+  --primary-dark-shadow: #141414;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* box-shadow: 0px 0px 0px 0.3px red; */
 }
 
 a {
-  color: white;
+  color: #FAF9F6;
   text-decoration: none;
 }
 
@@ -28,18 +41,18 @@ a {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #242424; 
+  background: var(--primary-dark); 
 }
  
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #780078;
+  background: var(--primary-clr);
   border-radius: 10px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #880088;
+  background: #980098;
 }
 
 ::selection {
