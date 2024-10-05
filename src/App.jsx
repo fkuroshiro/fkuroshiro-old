@@ -1,5 +1,6 @@
 import '../src/css/App.css'
 import Logo from "./assets/logo.png";
+import Pencil_Icon from "./assets/pencil_create_icon.png";
 
 function App() {
 
@@ -15,7 +16,7 @@ function App() {
               <a href="#home">Home</a>
               <a href="#skills">$kill$</a>
               <a href="#projects">Project$</a>
-              <a href="">Contact</a>
+              <a href="#contact">Contact</a>
             </div>
           </div>
           <div className="email">
@@ -24,11 +25,11 @@ function App() {
         </div>
       </div>
 
-      <section id='home' className='header'>
+      <div id='home' className='header'>
         <div className="inner">
           <div>Dominik Bobruška</div>
         </div>
-      </section>
+      </div>
 
       {/* <section id='skills'>
         <div className="inner">
@@ -48,14 +49,26 @@ function App() {
       <section id='projects'>
         <div className="inner">
           <div className="projects-grid">
-            <div className="card"></div>
-            <div className="card"></div>
+            <div className="card">Coming soon...</div>
+            {/* <div className="card"></div> */}
           </div>
         </div>
       </section>
       
-      <section>
-
+      <section className='contact'>
+        <div className="inner">
+          <div className="create-web">
+            <img src={Pencil_Icon} alt="logo" width="200px"/>
+            <div>
+              <h2>Do you want website?</h2>
+              <p>Do you want create a website?</p>
+              <div>
+                <b>Write me email: </b>
+                <a href="mailto:help@weizzx.xyz">help@weizzx.xyz</a>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
 
       <footer>
