@@ -220,3 +220,11 @@ footer .creator {
     width: 720px;
   }
 }
+
+@media screen and (max-width:720px) {
+  .inner {
+      max-width: 500px;
+      padding: 0 min(40px);
+      box-sizing: border-box;
+  }
+}
