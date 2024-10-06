@@ -215,6 +215,8 @@ footer .creator {
   
 }
 
-@media screen and (max-width:600px) {
-
+@media screen and (max-width:1280px) {
+  .inner {
+    width: 720px;
+  }
 }
