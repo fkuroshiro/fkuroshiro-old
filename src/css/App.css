@@ -219,6 +219,20 @@ footer .creator {
   .inner {
     width: 720px;
   }
+
+  #skills .grid {
+    grid-template-areas: ".";
+    grid-template-columns: 1fr;
+  }
+
+  .projects-grid {
+    grid-template-areas: ".";
+    grid-template-columns: 1fr;
+  }
+
+  .card {
+    max-width: 600px;
+  }
 }
 
 @media screen and (max-width:720px) {
@@ -227,8 +241,7 @@ footer .creator {
       padding: 0 min(40px);
   }
 
-  .projects-grid {
-    grid-template-areas: ".";
-    grid-template-columns: 1fr;
+  .card {
+    max-width: 400px;
   }
 }
