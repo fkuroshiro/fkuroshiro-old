@@ -1,6 +1,6 @@
 @media screen and (max-width:500px) {
     .inner {
-        width:480px;
+        width:400px;
         padding: 0 min(20px);
         box-sizing: border-box;
     }
