@@ -223,8 +223,12 @@ footer .creator {
 
 @media screen and (max-width:720px) {
   .inner {
-      max-width: 500px;
+      width: 480px;
       padding: 0 min(40px);
-      box-sizing: border-box;
+  }
+
+  .projects-grid {
+    grid-template-areas: ".";
+    grid-template-columns: 1fr;
   }
 }
