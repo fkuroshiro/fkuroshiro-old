@@ -223,7 +223,7 @@ footer .creator {
 
 @media screen and (max-width:720px) {
   .inner {
-      width: 480px;
+      width: 500px;
       padding: 0 min(40px);
   }
 
