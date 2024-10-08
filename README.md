@@ -1,1 +1,1 @@
-My personal website: https://weizzx.github.io/weizzx/
+My personal website: https://weizzx.xyz
