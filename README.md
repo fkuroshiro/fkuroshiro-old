@@ -24,15 +24,6 @@ I'm **Dominik Bobruška** — also known as **weizzx** online. I'm a passionate 
 
 ---
 
-## 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=weizzx&show_icons=true&theme=radical" width="450"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=weizzx&theme=radical" width="450"/>
-</p>
-
----
-
 ## ☕ Let's Connect!
 
 If you vibe with code, tech, or design — hit me up on socials or check out my projects!
