@@ -3,7 +3,7 @@
 ### 👨‍💻 18 y/o IT Student | Developer | Creator
 
 <div align="center">
-  <img src="assets/logo.png" width="150" alt="weizzx logo" />
+  <img src="assets/logo.png" width="150" />
 </div>
 
 
