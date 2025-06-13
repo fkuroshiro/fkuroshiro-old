@@ -24,13 +24,3 @@ I'm **Dominik Bobruška** — also known as **weizzx** online. I'm a passionate 
 
 ---
 
-## ☕ Let's Connect!
-
-If you vibe with code, tech, or design — hit me up on socials or check out my projects!
-
-> _"Keep it simple, but significant."_ 💡
-
----
-
-_Thanks for stopping by! 👋_
-****
