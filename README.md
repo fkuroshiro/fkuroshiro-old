@@ -2,10 +2,6 @@
 
 ### 👨‍💻 18 y/o IT Student | Developer | Creator
 
-<div align="center">
-  <img src="assets/logo.png" width="150" />
-</div>
-
 
 I'm **Dominik Bobruška** — also known as **weizzx** online. I'm a passionate IT student with a growing skill set in full-stack development and a love for turning ideas into real-world applications.
 
@@ -17,13 +13,6 @@ I'm **Dominik Bobruška** — also known as **weizzx** online. I'm a passionate 
 - ⚛️ **React**, **React Native** — modern frontend tools
 - ⚡ **Vite.js** — lightning-fast development
 - 🧰 Currently building cool stuff with all of the above
-
----
-
-## 🌍 My Links
-- 🔗 **Portfolio**: [weizzx.xyz](https://weizzx.xyz)
-- 📸 **Instagram**: [@_narocnej_](https://instagram.com/_narocnej_)
-- 💼 **LinkedIn**: [Dominik Bobruška](https://www.linkedin.com/in/dominik-bobru%C5%A1ka/)
 
 ---
 
