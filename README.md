@@ -2,7 +2,7 @@
 
 ### 👨‍💻 18 y/o IT Student | Developer | Creator
 
-<img align="right" src="https://avatars.githubusercontent.com/u/99166087?v=4" width="150" style="border-radius: 50%;" />
+<img align="right" src="src/assets/logo.png" width="150" style="border-radius: 50%;" />
 
 I'm **Dominik Bobruška** — also known as **weizzx** online. I'm a passionate IT student with a growing skill set in full-stack development and a love for turning ideas into real-world applications.
 
